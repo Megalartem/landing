@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.text_company_color {
+    color: #E3B873;
+}
+
+.header_text {
+    margin: 0;
+    font-size: 11px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #131313;
+    height: 37px;
+    max-width: 100%;
+    padding: 24px 92px 22px 90px;
+}
+
+.header__logo {
+    display: flex;
+    margin: 0 5px 0 5px;
+    justify-content: left;
+    width: 260px;
+    /* height: 10px; */
+    margin: 13px 0 14px 0;
+}
+
+.header__logo__text {
+    margin: 0;
+    min-width: 155px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 15px;
+}
+
+.header__nav-menu {
+    display: flex;
+    margin: 0 5px 0 5px;
+    justify-content: space-between;
+    align-items: center;
+    width: 582px;
+}
+
+.header__nav-menu__elem {
+    margin: 0 3px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.header__nav-menu__elem:hover {
+    color: #805d26;
+}
+
+.header__phone {
+    display: flex;
+    justify-content: flex-end;
+    /* padding-right: 41px; */
+    margin: 0 5px 0 5px;
+    align-items: center;
+    min-width: 150px;    
+}
+
+.header__request-call {
+    text-align: center;
+    width: 160px;
+    background-color: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    border: none;
+    color: #FFFFFF;
+    font-style: italic;
+}
+
+.block-first {
+    width: 100%;
+    height: 707px;
+    background-image: url(../images/first_block.jpg);
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.block-first-blackground {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.block-first__content {
+    max-width: 676px;
+    max-height: 305px;
+    margin: 194px 0 208px 134px;
+    color: #FFFFFF;
+}
+
+.block-first__content__h1 {
+    margin: 0 0 19px 0;
+    font-family: 'Yeseva One', cursive;
+    font-size: 40px;
+    font-weight: 400;
+    list-style: 53px;
+}
+
+.block-first__content__about {
+    margin: 0 0 41px 0;
+    width: 504px;
+    font-size: 22px;
+    line-height: 36px;
+}
+
+.block_first__buttons {
+    width: 207px;
+    height: 51px;
+    border-radius: 2px;
+    font-size: 11px;
+    color: #FFFFFF;
+}
+
+.block-first__content__calc-cost {
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
+}
+
+.block-first__content__submit {
+    background: none;
+    border: #FFFFFF 1px solid;
+}
