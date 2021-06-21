@@ -12,6 +12,11 @@ body {
     font-size: 11px;
 }
 
+.main_block {
+    display: flex;
+    flex-direction: column;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -127,4 +132,203 @@ body {
 .block-first__content__submit {
     background: none;
     border: #FFFFFF 1px solid;
+}
+
+.completed-pr {
+    justify-content: center;
+    background-color: black;
+    display: flex;
+    width: 100%;
+    padding: 107px 0 416px 0;
+}
+
+.completed-pr_block1 {
+    justify-content: center;
+    display: flex;
+    width: 80%;
+}
+
+.completed-pr__paragraph {
+    margin: 80px 50px 0 0;    
+}
+
+.completed-pr__paragraph__h2 {
+    margin: 0;
+    width: 253px;
+    font-size: 27px;
+    padding-bottom: 34px;
+    font-family: 'Yeseva One', cursive;
+    color: #E3B873;
+    line-height: 37,42px;
+}
+
+.completed-pr__paragraph__propertie_name {
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Yeseva One', normal;
+    color: #E3B873;
+    line-height: 24,95px;
+}
+
+.completed-pr__paragraph__text {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 26,73px;
+    margin-bottom:  0 0 25px 0;
+}
+
+.completed-pr__paragraph__properties {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.completed-pr__paragraph__propertie {
+    width: 213px;
+    height: 70px;
+    margin: 17px 0;
+}
+
+.completed-pr__paragraph__navigation {
+    display: flex;
+    margin: 70px 0 0 0;
+}
+
+.completed-pr__paragraph__navigation_direction {
+    border: 0;
+    background: none;
+    margin: 0;
+}
+
+.completed-pr__paragraph__navigation_type-celect {
+    width: 10px;
+    height: 10px;
+    margin: 3px 9px;
+    padding: 0;
+    border: 0;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.completed-pr__paragraph__navigation_type-celect:hover {
+    background: rgba(255, 255, 255, 0,7);
+}
+
+.completed-pr__paragraph__navigation_type-celect:first-child {
+    background: rgba(255, 255, 255, 1);
+}
+
+.completed-pr__galery__nav {
+    margin-bottom: 52px;
+    display: flex;
+}
+
+.completed-pr__galery__nav_elem {
+    margin: 0 30px;
+    text-decoration: none;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.3);
+    font-family: 'Yeseva One', cursive;
+    text-transform: uppercase;
+}
+
+.completed-pr__galery_first-elem {
+    margin-left: 0;
+    color: #E3B873;
+    /* text-decoration: underline */
+    padding-bottom: 7px;
+    border-bottom: 1px #E3B873 solid;
+}
+
+.online_control {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.online_control__block {
+    max-width: 817px;
+    position: relative;
+    top: -300px;
+}
+
+.online_control__block__header {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.online_control__block__header__title {
+    font-family: Yeseva One;
+    color: #FFFFFF;
+    font-size: 20px;
+    margin: 13px 0px;
+}
+
+.cam_collection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cam_collection__elem {
+    margin: 0 4px;
+}
+
+.play_video {
+    width: 80px;
+    height: 80px;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(227, 184, 115, 1);
+}
+
+.play_video__triangle {
+    padding-left: 4px;
+}
+
+.online_control__block__video {
+    height: 434px;
+    width: 100%;
+    background-image: url(../images/repair_promo_video.png);
+}
+
+.online_control__block__video_black {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+}
+
+.separator {
+    margin: 62px 50% 0;
+    text-align: center;
+}
+
+.online_control__block__about {
+    margin: 34px 10%;
+    font-size: 18px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.online_control__block__form {
+    display: flex;
+    justify-content: center;
+}
+
+.online_control__block__form__elem {
+    margin: 0 25px;
+}
+
+.online_control__block__form__elem_text {
+    margin: 0;
 }
