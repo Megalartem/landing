@@ -18,6 +18,9 @@ body {
 }
 
 .header {
+    position:sticky;
+    top: 0;
+    z-index: 1;
     display: flex;
     justify-content: space-between;
     background-color: #131313;
@@ -253,25 +256,29 @@ body {
     top: -300px;
 }
 
-.online_control__block__header {
+.title_selection {
     text-align: center;
     margin-bottom: 32px;
 }
 
-.online_control__block__header__title {
+.title_selection__text {
     font-family: Yeseva One;
     color: #FFFFFF;
     font-size: 20px;
     margin: 13px 0px;
 }
 
-.cam_collection {
+.black_color {
+    color: black;
+}
+
+.collection_icon {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.cam_collection__elem {
+.collection_icon__elem {
     margin: 0 4px;
 }
 
@@ -286,8 +293,12 @@ body {
     background: rgba(227, 184, 115, 1);
 }
 
+.play_video:active {
+    background: rgb(134, 109, 69);
+}
+
 .play_video__triangle {
-    padding-left: 4px;
+    padding-left: 6px;
 }
 
 .online_control__block__video {
@@ -357,7 +368,7 @@ body {
     justify-content: center;
 }
 
-.online_control__block__confirm__policy__checkbox {
+.confirm__policy__checkbox {
     width: 18px;
     height: 18px;
     margin-top: 2px;
@@ -366,4 +377,185 @@ body {
 
 .online_control__block__confirm__policy__text {
     margin: 0;
+}
+
+.types_of_repair {
+    margin-top: 147px;
+    display: flex;
+    justify-content: center;
+}
+
+.types_of_repair__elements {
+    display: flex;
+    height: 608px;
+}
+
+.types_of_repair__elem {
+    margin: 0 15px;
+}
+
+.types_of_repair__elem__about {
+    width: 330px;
+    height: 286px;
+    margin: 0 31px;
+    background: #FFFFFF;
+    position: relative;
+    top: -137px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+}
+
+.types_of_repair__elem__title {
+    margin: 0;
+    padding: 25px 0 8px 34px;
+    font-family: Yeseva One;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.types_of_repair__elem__about__ul {
+
+    margin: 0 0 23px 10px;
+}
+
+.types_of_repair__elem__about__li {
+    padding: 5px 0;
+    color:rgba(149, 149, 149, 1);
+    font-size: 13px;
+}
+
+.types_of_repair__elem__cost {
+    width: 228px;
+    height: 54px;
+    position: relative;
+    left: 31px;
+    top: -180px;
+    background: rgba(227, 184, 115, 1);
+    box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+    text-align: center;
+}
+
+.types_of_repair__elem__cost__text {
+    padding: 13px 0;
+    font-family: Yeseva One;
+    font-size: 18px;
+    color: #FFFFFF;
+
+}
+
+.requestion {
+    display: flex;
+    margin-bottom: 255px;
+}
+
+.requestion-list {
+    width: 50%;
+    margin-bottom: 80px;
+    box-sizing: border-box;
+    background-image: url(../images/request_free_departure.png);
+    background-repeat: no-repeat;
+    padding: 67px 0 0 249px;
+}
+
+.requestion-elem {
+    display: flex;
+    margin: 50px 0;
+}
+
+.requestion-elem__circle {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(227, 184, 115);
+    border: 8px solid #FFFFFF;
+    box-shadow: 0 0 10px rgba(227, 184, 115, 0.5);
+}
+
+.requestion-elem__circle-text {
+    text-align: center;
+    margin: 10px 0;
+    font-family: Yeseva One;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.requestion-elem__text {
+    margin: 8px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.requestion-form {
+    height: 509px;
+    width: 506px;
+    margin: 106px 100px 0 131px;
+    background: #131313;
+    box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
+}
+
+.requestion-title {
+    width: 100%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.requestion-input-main {
+    margin: 52px 49px;
+    display: flex;
+    flex-direction: column;
+}
+
+.requestion-input-last {
+    margin: 52px 49px 8px 49px;
+}
+
+.requestion-label {
+    font-size: 13px;
+    padding: 7px 2px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.requestion-input {
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.requestion-agreement {
+    display: flex;
+    margin: 0 49px;
+}
+
+.requestion-agreement-text {
+    margin: 0;
+    padding-left: 8px;
+    color: #FFFFFF;
+}
+
+.requestion-button {
+    border: none;
+    margin: 39px 49px 27px 244px;
+    width: 213px;
+    height: 51px;
+    background: rgba(227, 184, 115, 1);
+    color: #FFFFFF;
+}
+
+.save-cost {
+    display: flex;
+    margin: 38px 0 0 31px;
+}
+
+.icon-pig {
+    height: 72px;
+    width: 72px;
+    background: rgba(227, 184, 115, 1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-pig__text {
+    margin-left: 25px;
+    color: rgba(227, 184, 115, 1);
 }
