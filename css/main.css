@@ -12,15 +12,10 @@ body {
     font-size: 11px;
 }
 
-.main_block {
-    display: flex;
-    flex-direction: column;
-}
-
 .header {
     position:sticky;
     top: 0;
-    z-index: 1;
+    z-index: 10;
     display: flex;
     justify-content: space-between;
     background-color: #131313;
@@ -542,8 +537,12 @@ body {
 }
 
 .requestion-button {
-    border: none;
     margin: 39px 49px 27px 244px;
+}
+
+
+.button {
+    border: none;
     width: 213px;
     height: 51px;
     background: rgba(227, 184, 115, 1);
@@ -647,7 +646,7 @@ body {
 
 .our-clients {
     width: 100%;
-    height: 885px;
+    height: 685px;
     margin-top: 110px;
 }
 
@@ -691,9 +690,165 @@ body {
 
 
 .our-clients-elem__option {
+    position: relative;
+    bottom: -77px;
     display: flex;
     height: 54px;
-    width: 300;
+    width: 300px;
     background: #E3B873;
     box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
+}
+
+.our-clients-elem__option__elem {
+    padding: 11px;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.option__border_right {
+    border-right: 1px solid #FFFFFF;
+}
+
+.our-clients-elem__option__elem-text {
+    margin: 0 0 0 15px;
+    font-family: Yeseva One;
+    font-size: 17px;
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+.city_background {
+    position: relative;
+    margin: 0;
+    top: -100px;
+    z-index: -1;
+    width: 100%;
+    height: 360px;
+    background-image: url("../images/city_bg.svg");
+    background-repeat: repeat-x;
+}
+
+.city_background-white {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.95)
+}
+
+.questions {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 445px;
+    z-index: 2;
+}
+
+.map-form {
+    position: relative;
+    top: -250px;
+    width: 883px;
+    padding: 34px 181px;
+    box-sizing: border-box;
+    background-color: #181818;
+}
+
+.map-form__title {
+    font-family: Yeseva One;
+    font-size: 20px;
+    font-style: normal;
+    text-align: center;
+    color: white;
+}
+
+.map-form-1 {
+    margin: 45px 0 48px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.map-input-main {
+    display: flex;
+    flex-direction: column;
+    width: 231px;
+}
+
+.map-label {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Nunito Sans;
+    font-size: 13px;
+    font-style: normal;
+}
+
+.map-input {
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.map-form-2 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 48px;
+}
+
+.map-agreement {
+    display: flex;
+    justify-content: center;
+}
+
+.map-agreement-button_block {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.map-agreement__button {
+    margin: 51px 0 34px 0;
+}
+
+.address {
+    width: 100%;
+    height: 950px;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -550px;
+    z-index: -1;
+    background-size: cover;
+    background-image: url("../images/map_background.png");
+}
+
+.address-black {
+
+    width: 100%;
+    background: linear-gradient(180deg, rgba(24, 24, 24, 0.9) 3.47%, rgba(24, 24, 24, 0.72) 100%);
+    /* padding-top: 150px; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+}
+
+.address_title {
+    font-family: Yeseva One;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: rgba(227, 184, 115, 1);
+}
+
+.address__icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.address__icon {
+    margin: 0 8px;
+}
+
+.address-map {    
+    margin: 0 auto 40px;
+    width: 925px;
+    height: 465px;
+
 }
